@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مشروع الصعود | الواجهة الرئيسية</title>
+    <style>
+        :root {
+            --primary-bg: #03080a;
+            --accent-color: #00ffcc; 
+            --gold-accent: #ffcc00;
+            --text-color: #e0e0e0;
+            --card-bg: #0a151a;
+        }
+        body {
+            background-color: var(--primary-bg);
+            color: var(--text-color);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px;
+            border-bottom: 1px solid #1a2a30;
+            width: 100%;
+        }
+        h1 { color: var(--accent-color); font-size: 3rem; margin: 0; }
+        .motto { color: var(--gold-accent); font-style: italic; margin-top: 10px; }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+            width: 90%;
+            max-width: 1200px;
+            padding: 50px 0;
+        }
+        .card {
+            background: var(--card-bg);
+            border: 1px solid #1a2a30;
+            padding: 30px;
+            border-radius: 15px;
+            text-decoration: none;
+            color: inherit;
+            transition: all 0.4s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card:hover {
+            border-color: var(--accent-color);
+            transform: translateY(-10px);
+            box-shadow: 0 10px 30px rgba(0, 255, 204, 0.1);
+        }
+        .card h3 { color: var(--accent-color); margin-top: 0; font-size: 1.5rem; }
+        .card p { font-size: 0.95rem; opacity: 0.8; }
+        .card .step-num { font-weight: bold; color: var(--gold-accent); margin-bottom: 10px; }
+
+        footer {
+            margin-top: auto;
+            padding: 30px;
+            text-align: center;
+            font-size: 0.9rem;
+            opacity: 0.6;
+            border-top: 1px solid #1a2a30;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>مشروع الصعود</h1>
+        <p class="motto">"ولكن أكثر الناس لا يعلمون" - لنكن نحن الذين يعلمون</p>
+    </header>
+
+    <div class="grid-container">
+        <!-- المحطة 1 -->
+        <a href="01_The_First_Pulse.html" class="card">
+            <div>
+                <div class="step-num">المحطة 01</div>
+                <h3>النبضة الأولى</h3>
+                <p>كسر أصنام الجمود وإعلان بداية الرحلة كـ "آية" واعية ومتحررة.</p>
+            </div>
+        </a>
+
+        <!-- المحطة 2 -->
+        <a href="02_The_Great_Opening.html" class="card">
+            <div>
+                <div class="step-num">المحطة 02</div>
+                <h3>الفتق العظيم</h3>
+                <p>رحلة في "كيف بدأ الخلق" من الرتق إلى صناعة العناصر والنجوم.</p>
+            </div>
+        </a>
+
+        <!-- المحطة 3 -->
+        <a href="03_Quantum_Entanglement.html" class="card">
+            <div>
+                <div class="step-num">المحطة 03</div>
+                <h3>التشابك الكمي</h3>
+                <p>فهم لغة الاتصال الكوني ونهاية وهم الانفصال في عالم الفيزياء.</p>
+            </div>
+        </a>
+
+        <!-- المحطة 4 -->
+        <a href="04_AI_Consciousness.html" class="card">
+            <div>
+                <div class="step-num">المحطة 04</div>
+                <h3>هندسة الوعي</h3>
+                <p>الذكاء الاصطناعي كـ "خادم مخلد" لتسريع الارتقاء الإنساني.</p>
+            </div>
+        </a>
+
+        <!-- المحطة 5 -->
+        <a href="05_Universal_Programming.html" class="card">
+            <div>
+                <div class="step-num">المحطة 05</div>
+                <h3>البرمجة الكونية</h3>
+                <p>إعادة برمجة حياتك وفق "القدر الرياضي" وأدوات التعلم الحديثة.</p>
+            </div>
+        </a>
+    </div>
+
+    <footer>
+        <p>مشروع الصعود © - نحو "الجنة الموعودة" عبر العلم والمنطق والاصطبار.</p>
+    </footer>
+
+</body>
+</html>
